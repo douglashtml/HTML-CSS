@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+/*import da fonte*/
+@font-face {
+    font-family: "androidfont";
+    src: url(fontes/idroid.otf);
+}
+
+/*cabeçalho*/
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgb(2, 207, 2), green);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-top: -8px;
+
+}
+nav{
+    text-align: left;
+    margin-left: 10px;
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+/*Sombra do Texto*/
+.sombra{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+
+/*artigo*/
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#margemcab{ /*margem do main com o header*/
+   margin-top: 40px;
+}
+
+.fonteandroid{
+    font-family: "androidfont";
+    color: green;
+    margin-left: 20px;
+}
+
+section > p{
+    text-align: justify;
+    margin: 20px;
+    text-indent: 25px;
+    
+}
+
+section > h2{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(9, 255, 42, 0.616));
+    text-indent: 15px;
+}
+
+section > picture{
+    margin-left: 100px;
+}
+
+#bugdroidimg{
+    margin-left: 350px;
+}
+
+.videoconf{
+    
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.centvideo{
+    margin-left: 250px;
+    
+}
+
+#divextra{
+    background-color: rgba(182, 194, 182, 0.671);
+    text-align: justify;
+    text-indent: 10px;
+    width: 940px;
+    margin: auto;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+h3{
+    background-color: rgb(8, 160, 8);
+    color: white;
+    text-indent: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+    width: 960px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+ }
+
+
+/*configurações gerais*/
+body{
+    background-color: rgba(5, 158, 5, 0.37);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+

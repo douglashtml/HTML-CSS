@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferente, ou aumente e diminua o tamanho da página do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir Áudios em HTML5</p>
+    <p>para isto, existem duas formas</p>
+    <h2>Forma 1</h2>
+    <audio src="midia/interestellar.mp3" controls></audio>
+    
+    <!--MP3 WAV OGG são os formatos compativeis-->
+    <h2>Forma 2</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/interestellar.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não reproduz áudio. <a href="midia/interestellar.mp3">clique aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+    
+</body>
+</html>
